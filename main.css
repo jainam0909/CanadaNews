@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    background-color: #424242; /* dark grey for a modern look */
+    background: linear-gradient(to bottom, #424242, #636363); /* Dark grey to lighter grey */
     color: white;
     text-align: center;
     padding: 10px;
@@ -59,13 +59,19 @@ body {
     clear: both;
     text-align: center;
     padding: 10px;
-    background-color: #333;
+    background: linear-gradient(to top, #333333, #4f4f4f); /* Dark grey to lighter grey */
     color: white;
 }
-.containner{
+
+footer a {
+    color: white;
+}
+
+.container {
     display: flex;
 }
-img{
-    float:left;
-    margin: 19px 
+
+img {
+    float: left;
+    margin: 19px;
 }
